@@ -1,0 +1,109 @@
+body {
+    
+background: #abbbf2;
+box-shadow:  20px 20px 60px #8996c2,
+             -20px -20px 60px #cde0ff;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    margin: 5px;
+    border: white 1px solid;
+    height: 93vh;
+    padding: 10px;
+}
+
+.blue {
+    color: darkcyan;
+}
+
+h3 {
+    text-align: center;
+}
+
+.moviename {
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+.booking-symbol {
+    background-color: black;
+    border-radius: 3px;
+    color: grey;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.moviescreen {
+    margin: 40px auto;
+    border-top: 150px solid darkcyan;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 400px;
+}
+
+.grid-container {
+    
+
+    margin: auto;
+    width: 345px;
+    height: 185 px;
+    display: grid;
+    grid-template-columns: repeat(15, 20px);
+    grid-template-rows: repeat(8, 20px);
+    grid-gap: 3px;
+}
+
+.box {
+    background-color: grey;
+}
+
+.checked {
+    background-color: rgb(48, 179, 223)!important;
+}
+
+h4 {
+    text-align: center;
+}
+
+.status {
+    margin: auto;
+}
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
