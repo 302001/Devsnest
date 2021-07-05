@@ -1,14 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
 function MostFrequent(array) {
     const length = array.length
     const myobject = {}
